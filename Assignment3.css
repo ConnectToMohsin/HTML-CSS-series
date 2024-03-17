@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.Navbar{
+padding: 10px 0px;
+background-color: white;
+box-shadow: 1px 4px 9px 0px rgba(161,161,161,0.75);
+}
+.Navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.Navbar nav .logo img{
+    width: 200px;
+}
+.Navbar nav .navlist{
+    display: flex;
+    list-style: none;
+}
+.Navbar nav .navlist>li{
+    padding: 7px 10px;
+    position: relative;
+
+}
+.Navbar nav .navlist li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+.apply-btn{
+    background-color: #1456A3;
+    border-radius: .25rem;
+
+}
+.apply-btn a{
+color: white !important;
+}
+.dropdown{
+    list-style: none;
+    position: absolute;
+    top: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s linear;
+}
+.Navbar nav .navlist>li:hover .dropdown{
+    opacity: 1;
+    top: 100%;
+    pointer-events: all;
+}
+.dropdown>li{
+    padding: 7px 10px;
+
+}
+.box1{
+    color: blue;
+    padding: 20px;
+}
+.box2{
+    color: black;
+    padding: 35px;
+}
+.aboutmain{
+    display: flex;
+    margin: 50px;
+}
+.container2 .box3{
+    position: absolute;
+    display: flex;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: slategray;
+}
+.top-left{
+    position: absolute;
+    top: 100px;
+    left: 16px;
+    color: white;
+}
+.centered{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    color: darkslategrey;
+}
+.bottom-left{
+    position: absolute;
+    top: 120%;
+    left: 40px;
+    color: white;
+}
+.bottom-left2{
+    position: absolute;
+    top: 140%;
+    left: 10px;
+}
+.top-right{
+    position: absolute;
+    top: 300%;
+    right: 20px;
+    padding-right: 50%;
+    margin: 30px 20px 10px 10px;
+}
+.box4{
+    color: slategray;
+    padding: 20px;
+}
+.first-text{
+    color: black;
+    margin: 20px;
+}
+.box5{
+    color: slategray;
+    padding: 20px;
+}
+.box6{
+    color: slategray;
+    padding: 20px;
+}
+.parent{
+    width: 350px;
+    height: 470px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 150%;
+    border-color: blue;
+    box-shadow: #1456A3;
+    position:  relative left 2px;
+}
+.image{
+    max-height: 10%;
+    padding: 10px;
+}

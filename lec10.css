@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: tomato;
+    height: 200px;
+    width: 200px;
+   transition: all 2s ease-in-out;
+   animation-duration: 5s;
+   /* animation-delay: 5s; */
+   animation-name: ali;
+   animation-iteration-count: infinite;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+}
+.box:hover{
+    /* width: 400px;
+    height: 400px;
+    background-color: black; */
+    /* transform: scale(.3); */
+    /* transform: scaleX(1.2); */
+    /* transform: rotate(360deg); */
+    /* transform: rotateX(120deg); */
+    /* transform: skew(45deg); */
+
+}
+@keyframes ali {
+    /* from{
+background-color:black;
+    }
+    to{
+background-color: blue;
+    } */
+
+    0%{
+        background-color: tomato;
+        left: 0;
+        top: 0;
+    }
+   25%{
+        background-color: tomato;
+        left: 50%;
+        top:0;
+    }
+    50%{
+        left: 50%;
+        top: 50%;
+    }
+    75%{
+        left: 0%;
+        top: 50%;
+    }
+
+}
+

@@ -1,0 +1,28 @@
+/* h3{
+    color: blue;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: Causten;
+    src: url(./images/Fonts/Causten-Regular.otf);
+}
+.box {
+    /* width: 100%; */
+    background-color: red;
+    /* height: 20vh; */
+    /* max-width: 600px; */
+    min-width: 600px;
+    /* max-height: 30vh; */
+    min-height: 50vh;
+}
+.box h1{
+    color: black;
+    font-size: 45px;
+    font-weight: 900;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-family: Causten;
+}
+.box h3{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}

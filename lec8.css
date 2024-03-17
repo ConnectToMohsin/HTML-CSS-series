@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    background-color: tomato;
+    padding: 10px 14px;
+    margin: 10px;
+}
+
+.container a:visited {
+    background-color: black;
+    color: tomato;
+}
+
+.container button {
+    background-color: tomato;
+    color: black;
+    padding: 10px 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.container h1 {
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+
+}
+
+/* .container h1::before{
+    content: "Hello Boy ";
+    color: red;
+    font-weight: 100;
+}
+.container h1::after{
+    content: " Kiasy Ho ";
+    color: red;
+    font-weight: 100;
+} */
+
+
+.container h1::before {
+    content: "";
+    background-color: black;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    transition: 0.3s all linear;
+}
+
+.container h1:hover::before {
+    width: 100%;
+}
+
+.box {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+.box form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box form div {
+    width: 45%;
+    margin: 10px;
+}
+
+.box form label,
+.box form input {
+    display: block;
+    width: 100%;
+}
+.box form input {
+    padding: 10px 12px;
+    outline: none;
+    border: 1px solid #9a9a9a;
+    border-radius: 5px;
+}
+/* .box form input::placeholder{
+    text-align: center;
+} */
+.box form div:first-child{
+    border: 1px solid red;
+}
+.box form div:last-child{
+    border: 1px solid rgb(16, 113, 105);
+}
+.box form div:nth-child(2n){
+    border: 1px solid black;
+}
+.box form div:nth-child(2n-1){
+    border: 1px solid rgb(255, 0, 0);
+}
